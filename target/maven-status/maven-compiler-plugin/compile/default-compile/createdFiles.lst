@@ -1,0 +1,6 @@
+net\velinquish\armorsets\armorequip\ArmorType.class
+net\velinquish\armorsets\armorequip\ArmorEquipEvent.class
+net\velinquish\armorsets\armorequip\ArmorListener.class
+net\velinquish\armorsets\armorequip\ArmorEquipEvent$EquipMethod.class
+net\velinquish\armorsets\ArmorSets.class
+net\velinquish\armorsets\ReloadCommand.class

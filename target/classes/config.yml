@@ -1,0 +1,21 @@
+# ArmorSets v.1.0.0-BETA
+# Created by Velinquish <3
+
+# What will appear in front of every message sent by the plugin
+plugin-prefix: '&6&lArmor &8» &7'
+
+# Main command for ArmorSets
+main-command: 'armorsets'
+# Plugin aliases - alternatives to COMMAND
+plugin-aliases:
+    - 'armorset'
+    - 'armor'
+    
+# Permission for configuring Meteors. The %action% placeholder will be replaced with the following valid actions:
+# - reload
+permission: 'armorsets.%action%'
+
+# Enable debug mode
+debug: false
+# Do not touch this unless you know what you are doing!
+config-version: 1

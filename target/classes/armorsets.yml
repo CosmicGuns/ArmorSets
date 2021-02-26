@@ -1,0 +1,20 @@
+disabling-commands:
+    - 'pex user %player% remove worldguard.region.bypass.world.spacesuffocation.*'
+    - 'rg removemember oceanwater -w world %player%'
+    - 'pex user %player% remove worldguard.region.bypass.world.oceanpoison.*'
+
+sets:
+    space-armor:
+        commands:
+        - 'pex user %player% add worldguard.region.bypass.world.spacesuffocation.*'
+        # What to check for in the item name
+        name-contains:
+        - 'Space'
+        - 'Intergalactic Armor'
+    diving_armor:
+        commands:
+        - 'rg addmember oceanwater -w world %player%'
+        - 'pex user %player% add worldguard.region.bypass.world.oceanpoison.*'
+        name-contains:
+        - 'Diving'
+        - 'Flippers'

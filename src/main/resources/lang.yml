@@ -1,0 +1,10 @@
+# You may turn any message here into something like this with hover/run/suggest effects on the text.
+# Each element of the list is another segment of the message with different effects.
+command-message:
+  - message: '&e/armorsets reload&8: &7Reloads the plugin and its files.'
+    hover: '&eClick to run'
+    run: '/armorsets reload'
+    
+plugin-reloaded: '%prefix%ArmorSets has been successfully &e&nreloaded!'
+
+no-permission: '%prefix%You must have the permission &3&n%permission%&7 to execute this command.'
